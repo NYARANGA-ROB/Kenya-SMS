@@ -1,0 +1,19 @@
+SystemManagement:
+    route: '#main'
+    label: 'Student Center'
+    parameters: { id: 12345678fgrttyu }
+    iconClass: null
+    iconImageUrl: null
+    OnClick: 'javascript:0'
+    class: null
+    children: { StudentDeactivation: { route: '#details', label: 'Student Deactvation', parameters: { id: test123 }, iconClass: null, iconImageUrl: null, OnClick: null, class: active, children: {  } } }
+
+StudentCenter:
+    route: '#main'
+    label: 'Student Center'
+    parameters: { id: 12345678fgrttyu }
+    iconClass: null
+    iconImageUrl: null
+    OnClick: 'javascript:0'
+    class: null
+    children: { StudentDeactivation: { route: '#details', label: 'Student Deactvation', parameters: { id: test123 }, iconClass: null, iconImageUrl: null, OnClick: null, class: active, children: {  } } }
