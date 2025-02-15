@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "aApIpySiWI2bj/Fz4FjYpOHfOlSbW6zXbind8CdsnDCRPYcOlf36FqpoY4VHOoUaNOBsi+to1DNhip3aqQBlcQ==",
+  "success": true,
+  "projectFilePath": "F:\\DEVELOPMENT\\SMS.Project\\Kenya-SMS-Core\\SmsApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\DEVELOPMENT\\SMS.Project\\Kenya-SMS-Core\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+}
