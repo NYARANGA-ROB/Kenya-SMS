@@ -1,0 +1,674 @@
+
+.page-header-menu {
+    display: flex;
+    /*margin-left: 1%;
+    margin-right: 1%;*/
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fdf8f3;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust box-shadow for raised effect */
+}
+
+.page-header-menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.page-header-menu a:hover {
+    background-color: #ddd;
+}
+
+
+.page-header-menu .deactivateBtn:hover {
+    font-size: 14px; /* Shrink text size on hover */
+    text-decoration: underline;
+    color: red;
+}
+.page-header-menu img {
+    margin-right: 5px;
+}
+
+.btnR {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.creativeEvoTable {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.creativeEvoTable th,
+.creativeEvoTable td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.creativeEvoTable th {
+    background-color: #efeded;
+    font-weight: bold;
+    color: #3b3f5c;
+}
+
+.creativeEvoTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.creativeEvoTable tr:hover {
+    background-color: #f2f2f2;
+}
+
+.creativeEvoTable-container {
+    background-color: #fffdfd;
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/*windows like dropdowns*/
+#swap_classes_NextLevelClass {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    width: 200px;
+}
+
+#swap_classes_NextLevelClass::placeholder {
+    color: #999;
+}
+
+#swap_classes_NextLevelClass:hover {
+    border-color: #999;
+}
+
+#swap_classes_NextLevelClass:focus {
+    outline: none;
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+}
+
+.windows-form-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    width:100%
+}
+
+.windows-form-input:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+.windows-form-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    background-color: white;
+    background-image: url("down-arrow-icon.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    appearance: none;
+    width:100%;
+}
+
+.windows-form-select:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+/* Styling the dropdown arrow icon */
+.windows-form-select::-ms-expand {
+    display: none;
+}
+
+.windows-form-select option {
+    background-color: white;
+}
+
+.windows-form-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 16px;
+}
+
+.windows-card-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.windows-card-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.windows-card-body {
+    margin: 0;
+}
+
+.windows-form-badge {
+    background-color: dodgerblue;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.windows-form-badge-danger {
+    background-color: #fc3747;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.windows-form-badge-warning {
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.widows-badge-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.windows-button-info {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.windows-button-warning {
+    background-color: coral;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.windows-button-default {
+    background-color: #e7e4e4;
+    color: #f5a82a;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.windows-button-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.windows-button-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tab-container {
+    display: flex;
+}
+
+.tab-link {
+    background: #f2f2f2;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the custom checkbox */
+.win-label {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px; /* Adjust this value to your preference */
+    margin-right: 10px; /* Adjust this value to your preference */
+    cursor: pointer;
+}
+
+.win-label:before {
+    content: "";
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 12px; /* Adjust this value to your preference */
+    height: 12px; /* Adjust this value to your preference */
+    border: 2px solid #0078D7; /* Adjust the color to match the Windows 11 style */
+    border-radius: 3px; /* Adjust this value to your preference */
+}
+
+/* Style the checked state */
+input[type="checkbox"]:checked + .win-label:before {
+    background-color: #0078D7; /* Adjust the color to match the Windows 11 style */
+}
+
+/* Style the checkmark */
+.win-label:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+input[type="checkbox"]:checked + .win-label:after {
+    display: block;
+}
+
+.win-label:after {
+    left: 4px; /* Adjust this value to your preference */
+    top: 1px; /* Adjust this value to your preference */
+    width: 6px; /* Adjust this value to your preference */
+    height: 11px; /* Adjust this value to your preference */
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/* Modal overlay */
+.win-11-modal {
+
+    /* top: 0;
+     left: 0;*/
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity and color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal content */
+.win-11-modal-content {
+    /*max-width: 500px;*/ /* Adjust the modal width as needed */
+    background-color: #F6F6F6; /* Adjust the background color to match Windows 11 light mode */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Adjust the box shadow as needed */
+}
+
+/* Modal title */
+.win-11-modal-title {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Modal text */
+.win-11-modal-text {
+    margin-bottom: 20px;
+}
+
+/* Modal close button */
+.win-11-modal-close {
+    background-color: #0078D7; /* Adjust the button color to match Windows 11 style */
+    color: #e52e2e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.win-11-modal-close:hover {
+    background-color: #e52e2e;
+    font-size: 18px;
+    color: white/* Adjust the hover color to match Windows 11 style */
+}
+
+/* Website title */
+.wa-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000; /* Adjust the color to match Windows 11 style */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the text shadow as needed */
+}
+
+/* Subtitle */
+.wa-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000; /* Adjust the color to match Windows 11 style */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.wa-label {
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000; /* Adjust the color to match Windows 11 style */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.wa-label-mini {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Adjust the color to match Windows 11 style */
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+/* Label */
+.wa-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000; /* Adjust the color to match Windows 11 style */
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+/* Dark mode button */
+.dark-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFFFFF; /* Adjust the text color to match Windows 11 dark mode */
+    background-color: #1E1E1E; /* Adjust the background color to match Windows 11 dark mode */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dark-button:hover {
+    background-color: #343434; /* Adjust the hover background color to match Windows 11 dark mode */
+}
+
+.dark-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0078D7; /* Adjust the focus box shadow color to match Windows 11 style */
+}
+
+.dark-button:active {
+    background-color: #2C2C2C; /* Adjust the active background color to match Windows 11 dark mode */
+}
+
+.wa-list-group-1 {
+    background-color: rgba(245, 241, 241, 0.86);
+    border-radius: 8px;
+    padding: 10px;
+}
+.wa-list-group-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.wa-list-item {
+    padding: 8px;
+    border-bottom: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+.wa-list-item:last-child {
+    border-bottom: none;
+}
+
+.wa-list-item:hover {
+    background-color: #f5f2f2;
+}
+
+.wa-list-item:active {
+    background-color: #d6d6d6;
+}
+.wa-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    background-color: #ECECEC;
+    color: #333333;
+}
+
+.wa-badge-primary {
+    background-color: #0065FF;
+    color: #FFFFFF;
+}
+
+.wa-badge-secondary {
+    background-color: #848484;
+    color: #FFFFFF;
+}
+
+.wa-hidden{
+    display: none;
+}
+
+
+.win11-dashboard-card {
+    background-color: #f3efef;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+}
+
+.win11-dashboard-card:hover{
+    background: linear-gradient(135deg, #b4d0ff, #fdc1c6);
+    cursor: pointer;
+    color: white;
+}
+
+.win11-dashboard-card-variant-2 {
+    background-color: #b4d0ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+    color: white;
+}
+
+.win11-dashboard-card-variant-2:hover{
+    background: linear-gradient(135deg, #f3efef, #f6cd92);
+    color: white;
+    cursor: pointer;
+}
+.win11-dashboard-card-variant-3 {
+    background-color: #f5c779;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+}
+
+.win11-dashboard-card-variant-3:hover{
+    background: linear-gradient(135deg, #b4d0ff, #fdc1c6);
+    color: white;
+    cursor: pointer;
+}
+
+.win11-dashboard-card-variant-4{
+    background-color: #fdc1c6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+}
+.win11-dashboard-card-variant-4:hover{
+    background: linear-gradient(135deg, #f3efef,#b4d0ff);
+    color: white;
+    cursor: pointer;
+}
+
+.win11-dashboard-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.win11-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.win11-dashboard-card-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.win11-dashboard-card-content {
+    text-align: center;
+}
+
+.win11-dashboard-card-stat {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.win11-dashboard-card-subtitle {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}.wa-profile-card {
+     background: linear-gradient(165deg, #bbbcbd, #c9bfd3);
+     color: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+     width: 100%;
+     display: flex;
+     align-items: flex-start;
+ }
+
+.wa-profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.wa-profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.wa-profile-picture input[type="file"] {
+    display: none;
+}
+
+.wa-profile-picture label {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wa-profile-details {
+    flex: 1;
+}
+
+.wa-profile-details h2,
+.wa-profile-details p {
+    margin: 0;
+}
+
+.wa-menu-link {
+    font-family: 'Raleway', sans-serif;
+    display: block !important;
+    padding: 10px 20px !important;;
+    text-decoration: none!important;
+    color: #f8f6f6!important;
+
+    font-weight: bold!important;
+    /*background-color: #f5f5f5;*/
+    transition: background-color 0.3s ease!important;
+}
+
+.wa-menu-link:hover {
+    background-color: #fbfcff !important;
+    color: #0a0a0a !important;
+}
+
+.wa-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wa-panel-icon {
+    color: #666;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.wa-panel-icon:hover {
+    color: #fcb1b1;
+}
