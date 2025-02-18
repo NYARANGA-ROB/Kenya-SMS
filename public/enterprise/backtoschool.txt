@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Rammetto One
+Author: Vernon Adams
+Url: https://fonts.google.com/specimen/Rammetto+One
+
+Font: Quicksand
+Author: Andrew Paglinawan
+Url: https://fonts.google.com/specimen/Quicksand
