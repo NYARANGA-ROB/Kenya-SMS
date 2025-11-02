@@ -9,7 +9,6 @@ K-SMS is a comprehensive School Management Information System designed specifica
 With K-SMS, schools can streamline their administrative processes, improve communication, enhance data management, and provide better services to students, staff, and parents. The solution is built using the Symfony framework version 6 and PHP version 8.1, ensuring a robust and modern technology foundation.
 
 ## Key Features
-
 ### 1. Student Management Module
 
 The Student Management Module empowers schools to handle student-related tasks seamlessly. Key functionalities include:
