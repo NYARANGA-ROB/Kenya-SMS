@@ -94,9 +94,7 @@ Once K-SMS is successfully installed, you can start using the system by performi
 5. Customize the system settings according to your school's requirements.
 6. Import existing data or start entering new data into the system.
 
-## Support
 
-For any technical assistance or  
 
 
 
