@@ -101,4 +101,4 @@ For any technical assistance or inquiries related to K-SMS, please contact our s
 
 ## License
 
-K-SMS is licensed under the [MIT License](LICENSE.md).
+K-SMS is licensed under
