@@ -48,6 +48,7 @@ The Exam Management module enables schools to efficiently manage examinations an
 
 ### 5. Human Resource Management
 
+
 The Human Resource Management module facilitates efficient management of school personnel. Key functionalities include:
 
 - **Employee records**: Maintain detailed records of employees, including personal information, qualifications, and employment history.
