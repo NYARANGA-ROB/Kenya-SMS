@@ -21,7 +21,6 @@ The Student Management Module empowers schools to handle student-related tasks s
 
 ### 2. Class Management Module
 
-
 The Class Management Module provides schools with the tools to effectively organize classes and class sections/streams. Key functionalities include:
 
 - **Class creation**: Create and manage different classes, assigning appropriate teachers and resources.
