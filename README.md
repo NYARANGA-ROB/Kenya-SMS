@@ -84,6 +84,7 @@ To install K-SMS, follow these steps:
 
 ## Get Started
 
+
 Once K-SMS is successfully installed, you can start using the system by performing the following steps:
 
 1. Launch your preferred web browser and enter the URL provided during the installation process.
