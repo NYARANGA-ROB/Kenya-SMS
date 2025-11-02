@@ -29,6 +29,7 @@ The Class Management Module provides schools with the tools to effectively organ
 - **Class creation**: Create and manage different classes, assigning appropriate teachers and resources.
 - **Class section/streams**: Define and manage class sections or streams, ensuring efficient student allocation and scheduling.
 
+
 ### 3. Staff Management
 
 The Staff Management module simplifies the management of school staff. Key functionalities include:
