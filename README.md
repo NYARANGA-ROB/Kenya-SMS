@@ -98,6 +98,6 @@ Once K-SMS is successfully installed, you can start using the system by performi
 
 For any technical assistance or inquiries related to K-SMS, please contact our support team at support@k-sms.com or visit our [support portal](https://www.k-sms.com/support).
 
-## Lic
+
 
 
