@@ -10,6 +10,7 @@ With K-SMS, schools can streamline their administrative processes, improve commu
 ## Key Features
 ### 1. Student Management Module
 
+
 The Student Management Module empowers schools to handle student-related tasks seamlessly. Key functionalities include:
 
 - **Student admission**: Effortlessly manage student admissions, including capturing necessary information and documentation.
