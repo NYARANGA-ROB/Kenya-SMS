@@ -27,7 +27,6 @@ The Class Management Module provides schools with the tools to effectively organ
 
 
 ### 3. Staff Management
-
 The Staff Management module simplifies the management of school staff. Key functionalities include:
 
 - **Staff records**: Maintain detailed records of staff members, including personal information, qualifications, and employment history.
