@@ -32,7 +32,6 @@ The Staff Management module simplifies the management of school staff. Key funct
 
 - **Staff records**: Maintain detailed records of staff members, including personal information, qualifications, and employment history.
 - **Attendance**: Track staff attendance and generate reports for efficient payroll processing.
-
 ### 4. Exam Management
 
 The Exam Management module enables schools to efficiently manage examinations and related tasks. Key functionalities include:
