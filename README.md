@@ -6,6 +6,7 @@
 K-SMS is a comprehensive School Management Information System designed specifically for Kenyan schools. It offers a range of modules to efficiently manage various aspects of school operations, including student management, class management, staff management, exam management, human resource management, hostel management, and fee management.
 With K-SMS, schools can streamline their administrative processes, improve communication, enhance data management, and provide better services to students, staff, and parents. The solution is built using the Symfony framework version 6 and PHP version 8.1, ensuring a robust and modern technology foundation.
 
+
 ## Key Features
 ### 1. Student Management Module
 
